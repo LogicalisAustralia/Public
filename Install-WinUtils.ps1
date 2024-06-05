@@ -2,7 +2,7 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Install PowerShell 7
-choco install powershell --version=7.1.3 -y
+choco install powershell-core -y
 
 # Install VS Code
 choco install vscode -y
